@@ -44,10 +44,10 @@
 
 ## Features
 
-- [ ] List user profile and stats using GIthub User API
-- [ ] List and filter issues from a repo using Github Search API
-- [ ] List a detailed version of the issue using GIthub Issue API 
-- [ ] Responsive design
+- [x] List user profile and stats using GIthub User API
+- [x] List and filter issues from a repo using Github Search API
+- [x] List a detailed version of the issue using GIthub Issue API 
+- [x] Responsive design
 
 
 ---
