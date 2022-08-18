@@ -44,10 +44,10 @@
 
 ## Features
 
-- [ ] List user profile and stats using GIthub User API
-- [ ] List and filter issues from a repo using Github Search API
-- [ ] List a detailed version of the issue using GIthub Issue API 
-- [ ] Responsive design
+- [x] List user profile and stats using GIthub User API
+- [x] List and filter issues from a repo using Github Search API
+- [x] List a detailed version of the issue using GIthub Issue API 
+- [x] Responsive design
 
 
 ---
@@ -91,7 +91,10 @@ The following tools were used in the construction of the project:
 - **[Styled Components](https://styled-components.com/)**
 - **[Font Awesome](https://fontawesome.com/)**
 - **[Axios](https://axios-http.com/)**
-- **[Zod](https://github.com/colinhacks/zod)**
+- **[date-fns](https://date-fns.org/)**
+- **[React Markdown](https://github.com/remarkjs/react-markdown)**
+- **[React Router](https://reactrouter.com/)**
+- **[React Spinner](https://www.davidhu.io/react-spinners/)**
 
 ---
 ## Author
