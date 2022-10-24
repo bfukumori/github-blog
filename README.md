@@ -44,7 +44,7 @@
 
 ## Features
 
-- [x] List user profile and stats using GIthub User API
+- [x] List user profile and stats using Github User API
 - [x] List and filter issues from a repo using Github Search API
 - [x] List a detailed version of the issue using GIthub Issue API 
 - [x] Responsive design
