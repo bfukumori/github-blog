@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const CardContainer = styled(Link)`
-  height: 260px;
+  height: auto;
   padding: 32px;
   background-color: ${({ theme }) => theme.colors.post};
   border-radius: 10px;
@@ -28,6 +28,7 @@ export const CardContainer = styled(Link)`
       font-weight: 700;
       font-size: 1.25rem;
       color: ${({ theme }) => theme.colors.title};
+      max-width: 230px;
     }
 
     span {

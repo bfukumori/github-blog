@@ -53,7 +53,7 @@ export function PostProvider({ children }: PostProviderProps) {
 
   async function loadIssues(query: string = '') {
     const response = await api.get(
-      `search/issues?q=${query}repo:bfukumori/github-blog`,
+      `search/issues?q=${query}+is:issue+repo:facebook/react`,
     )
     const data = response.data
     const issues = data.items

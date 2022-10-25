@@ -24,9 +24,7 @@ export function Issue() {
   const navigate = useNavigate()
 
   const fetchIssue = useCallback(async () => {
-    const response = await api.get(
-      `repos/bfukumori/github-blog/issues/${number}`,
-    )
+    const response = await api.get(`repos/facebook/react/issues/${number}`)
     const issueData = response.data
     setIssue(issueData)
     setIsLoading(false)
@@ -62,7 +60,9 @@ export function Issue() {
         </footer>
       </PostHeader>
       <PostContent>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{issue.body}</ReactMarkdown>
+        <ReactMarkdown skipHtml={true} remarkPlugins={[remarkGfm]}>
+          {issue.body}
+        </ReactMarkdown>
       </PostContent>
     </Container>
   )

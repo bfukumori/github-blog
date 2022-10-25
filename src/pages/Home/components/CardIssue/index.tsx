@@ -17,7 +17,9 @@ export function CardIssue({ issue }: CardIssueProps) {
         <h1>{issue.title}</h1>
         <span>{dateFormatter(issue.created_at)}</span>
       </header>
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{abstract}</ReactMarkdown>
+      <ReactMarkdown skipHtml={true} remarkPlugins={[remarkGfm]}>
+        {abstract}
+      </ReactMarkdown>
     </CardContainer>
   )
 }
